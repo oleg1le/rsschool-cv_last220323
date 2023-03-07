@@ -45,5 +45,127 @@
     <div class="menu__hamburger">
       <span></span>
     </div>
+
+    <main class="wrapper">
+      <div class="block__left">
+        <section class="section section__profile">
+          <h1>Oleh Lebediev</h1>
+          <h3>Studying <br> Front-End Development</h3>
+          <figure class="image__profile">
+            <img src="assets/img/avatar1.jpeg" alt="Photo Oleh Lebediev">
+          </figure>
+        </section>
+        <section class="section section__contacts" id="contacts">
+          <h2>Contacts</h2>
+          <ul class="contact__item">
+            <li class="contact__list">
+              <a href="https://www.google.com/maps/@46.6488224,32.621587,11z" target="_blank" rel="noopener noreferrer"
+                title="map" class="main__link">
+                <i class="fa fa-map-marker" aria-hidden="true"> </i>
+              </a>
+            </li>
+            <li class="contact__list">
+              <a href="https://github.com/oleg1le" target="_blank" rel="noopener noreferrer" title="github"
+                class="main__link">
+                <i class="fa fa-github" aria-hidden="true"> </i>
+              </a>
+            </li>
+            <li class="contact__list">
+              <a href="malito:oleg1le@gmail.com" title="email" class="main__link">
+                <i class="fa fa-envelope" aria-hidden="true"> </i>
+              </a>
+            </li>
+            <li class="contact__list">
+              <a href="https://t.me/oleh_le" target="_blank" rel="noopener noreferrer" title="oleh_le" class="main__link">
+                <i class="fa fa-telegram" aria-hidden="true"> </i>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="block__right">
+        <section class="section section__summary" id="summary">
+          <h2>Summary</h2>
+          <p>
+            Stagnation in the economy prompts to look for new opportunities for stable income and personal development.
+            Programming seems like a great idea. My goal is to acquire knowledge and practical skills in front-end
+            development.
+          </p>
+        </section>
+        <section class="section section__skills" id="skills">
+          <h2>Skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">
+              <p>HTML</p>
+            </li>
+            <li class="skills__item">
+              <p>CSS</p>
+            </li>
+            <li class="skills__item">
+              <p>JavaScript (basic)</p>
+            </li>
+          </ul>
+        </section>
+        <section class="section section__code" id="code">
+          <h2>Code</h2>
+          <pre class="main__pre">
+            <code>
+              function changeMedia(event) {
+                const item = event.target.dataset.item
+                main.style.backgroundImage = `url(./assets/img/${item}.jpeg)`;
+                loadSouds(item);
+                if (isPlay) {
+                  play();
+                }
+              }
+            </code>
+          </pre>
+        </section>
+        <section class="section section__projects" id="projects">
+          <h2>Projects</h2>
+          <ul class="projects__list">
+            <li class="projects__item">
+              <a href="https://rolling-scopes-school.github.io/oleg1le-JSFEPRESCHOOL/ecosounds/" target="_blank">Eco
+                sound</a>
+            </li>
+            <li class="projects__item">
+              <a href="https://rolling-scopes-school.github.io/oleg1le-JSFEPRESCHOOL/game/" target="_blank">Tic Tac
+                Toe</a>
+            </li>
+            <li class="projects__item">
+              <a href="https://oleg1le.github.io/rsschool-cv/" target="_blank">CV</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section section__courses" id="courses">
+          <h2>Courses</h2>
+          <ul class="courses__list">
+            <li class="courses__item">
+              <p><span>RS Schools:</span> JavaScript/Front-end. Stage 0</p>
+            </li>
+            <li class="courses__item">
+              <p><span>Udemy:</span> Modern JavaScript from Beginning (in the process of studying)</p>
+            </li>
+            <li class="courses__item">
+              <p><span>English:</span> English school "EnglishPapa" (in the process of studying)</p>
+            </li>
+          </ul>
+        </section>
+        <section class="section section__language" id="language">
+          <h2>Language</h2>
+          <ul class="language__list">
+            <li class="language__item">
+              <p><span>Russian</span> - Native</p>
+            </li>
+            <li class="language__item">
+              <p><span>Ukrainian</span> - Native</p>
+            </li>
+            <li class="language__item">
+              <p><span>English</span> - A1</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
 </body>
 </html>
